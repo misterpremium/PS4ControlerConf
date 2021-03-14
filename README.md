@@ -1,4 +1,4 @@
-# PS4ControlerConf
+# PS4ControllerConf
 Configuration tu use ps4 controller with xboxdrv
 
 Tu work propetly with steam, in the game properties, we have to set the option "Override for..." to "Disable Steam Input"
