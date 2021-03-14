@@ -16,7 +16,7 @@ Available devices:
 /dev/input/event31:     Wireless Controller
 ```
 
-With tha information we can edit the confing file.
+With that information we can edit the confing file.
 
 The we can launch te xboxdrv
 ```
