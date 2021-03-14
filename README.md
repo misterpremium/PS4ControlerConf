@@ -1,13 +1,13 @@
 # PS4ControllerConf
-Configuration tu use ps4 controller with xboxdrv
+Configuration to use ps4 controller with xboxdrv
 
-Tu work propetly with steam, in the game properties, we have to set the option "Override for..." to "Disable Steam Input"
+To work properly with steam, in the game properties, we have to set the option "Override for..." to "Disable Steam Input"
 
 ![image](https://user-images.githubusercontent.com/25362037/111073732-0ec0f700-84e0-11eb-8952-fc65000e1f78.png)
 
-Then, we have to install xboxdrv and evtest, in order to configre the controller.
+Then, we have to install xboxdrv and evtest, in order to configure the controller.
 
-To find the event numbre of the controlle we have to run evtest:
+To find the event numbre of the controller we have to run evtest:
 ```
 $ evtest 
 No device specified, trying to scan all of /dev/input/event*
@@ -18,7 +18,7 @@ Available devices:
 
 With that information we can edit the confing file.
 
-The we can launch te xboxdrv
+Then we can launch the xboxdrv
 ```
 $ sudo xboxdrv --config /pathTo/ps4.xboxdrv --mimic-xpad-wireless
 xboxdrv 0.8.8 - http://pingus.seul.org/~grumbel/xboxdrv/ 
@@ -38,4 +38,4 @@ X1:  -512 Y1:  -768  X2:     0 Y2:     0  du:0 dd:0 dl:0 dr:0  back:0 guide:0 st
 
 ```
 
-With te optin --silent we can hide the stdout of the command.
+With the option --silent we can hide the stdout of the command.
